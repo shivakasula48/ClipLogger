@@ -158,7 +158,7 @@ ClipboardManager/
 For troubleshooting, check the log file at:
 ClipboardHistory/clipboard_manager.log
 
-text
+
 
 ## 🤝 Contributing
 
@@ -185,11 +185,6 @@ text
 
 
 
-## ⭐ Acknowledgments
-
-- Built with Python and modern Windows APIs
-- Uses efficient clipboard monitoring techniques
-- Inspired by productivity tools like Ditto and ClipClip
 
 ---
 
@@ -211,9 +206,8 @@ This project is open-source and free to use by anyone for personal or educationa
 Feel free to modify, distribute, and use the code as long as proper credit is given to the original author, **Kasula Shiva**.
 
 ---
+## ⭐ Acknowledgments
 
-## 📣 Acknowledgements
-
-Based on best practices and inspired by similar projects in the cybersecurity learning community. Thanks to open‑source libraries like **PyCryptodome**, **requests**, and **pyperclip** for enabling this functionality.
-
-sider logging modules or audit-tracing for cleaner event reporting.
+- Built with Python and modern Windows APIs
+- Uses efficient clipboard monitoring techniques
+- Inspired by productivity tools like Ditto and ClipClip
