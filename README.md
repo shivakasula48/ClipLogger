@@ -38,26 +38,30 @@ A powerful, feature-rich clipboard manager for Windows that automatically saves 
 
 ### Option 1: Run from Source
 Clone the repository
-git clone https://github.com/yourusername/ClipboardManager.git
+
+git clone https://github.com/shivakasula48/ClipLogger.git
+
 cd ClipboardManager
 
 Install dependencies
 pip install -r requirements.txt
 
 Run the application
-python clipboard.py
 
-text
+`python clipboard.py
 
+`
 ### Option 2: Build Executable
 Install PyInstaller
-pip install pyinstaller
-
+`pip install pyinstaller
+`
 Build standalone executable
-pyinstaller --onefile --windowed --name "ClipboardManager" clipboard.py
+
+`pyinstaller --onefile --windowed --name "ClipboardManager" clipboard.py
+`
 
 Executable will be in dist/ folder
-text
+
 
 ## 💻 Usage
 
@@ -65,7 +69,7 @@ text
 Run the application to open the graphical interface:
 python clipboard.py
 
-text
+
 
 **Interface Overview:**
 - **Monitoring Toggle**: Start/stop automatic clipboard monitoring
@@ -76,9 +80,9 @@ text
 
 ### CLI Mode
 For automation and scripting:
-python clipboard.py --cli
+`python clipboard.py --cli
+`
 
-text
 
 ### Settings Configuration
 Access via the GUI Settings button to configure:
@@ -92,23 +96,28 @@ Access via the GUI Settings button to configure:
 
 ## 📁 File Structure
 
+```bash
 ClipboardManager/
 ├── clipboard.py # Main application file
 ├── requirements.txt # Python dependencies
-├── README.md # This file
+├── README.md # Project documentation
 ├── LICENSE # License information
 ├── .gitignore # Git ignore rules
-└── ClipboardHistory/ # Created on first run
-├── clipboard_history.db # SQLite database
-├── settings.json # User settings
-├── clipboard_manager.log # Application logs
-├── text/ # Text files by date
-├── images/ # Image files by date
-├── files/ # Other files by date
-├── urls/ # URL files by date
-└── rich_text/ # HTML/RTF files by date
 
-text
+└── ClipboardHistory/ # Auto-created on first run
+├── clipboard_history.db # SQLite database storing clipboard entries
+├── settings.json # User configuration and preferences
+├── clipboard_manager.log # Application log file
+
+├── text/                  # Saved text entries (organized by date)  
+├── images/                # Saved image entries (organized by date)  
+├── files/                 # Saved file paths (organized by date)  
+├── urls/                  # Saved URLs (organized by date)  
+└── rich_text/             # Saved HTML/RTF entries (organized by date)  
+
+
+```
+
 
 ## 🔧 Technical Details
 
@@ -164,7 +173,7 @@ text
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 ## 🎯 Future Enhancements
 
@@ -177,12 +186,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [ ] Keyboard shortcuts
 - [ ] System tray integration
 
-## 📞 Support
 
-If you encounter any issues or have questions:
-1. Check the [Issues](https://github.com/yourusername/ClipboardManager/issues) page
-2. Create a new issue with detailed information
-3. Include log files and system information
 
 ## ⭐ Acknowledgments
 
@@ -191,60 +195,3 @@ If you encounter any issues or have questions:
 - Inspired by productivity tools like Ditto and ClipClip
 
 ---
-
-**Made with ❤️ for productivity enthusiasts**
-4. .gitignore
-text
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.pyc
-*.pyo
-
-# Env files
-.env
-
-# PyInstaller artifacts
-build/
-dist/
-*.spec
-
-# User-local config
-ClipboardHistory/
-clipboard_manager.log
-
-# OS junk
-.DS_Store
-Thumbs.db
-
-# IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Temporary files
-*.tmp
-*.log
-5. LICENSE (MIT License)
-text
-MIT License
-
-Copyright (c) 2025 Your Name
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
