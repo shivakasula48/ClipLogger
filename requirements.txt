@@ -1,0 +1,4 @@
+pyperclip
+Pillow
+pywin32
+plyer
