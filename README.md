@@ -192,3 +192,28 @@ text
 - Inspired by productivity tools like Ditto and ClipClip
 
 ---
+
+
+## 🧑‍💻 Author
+
+
+
+**Kasula Shiva**  
+🎓 B.Tech CSE (Cybersecurity)  
+🔗 GitHub: [shivakasula48](https://github.com/shivakasula48)  
+📧 Email: [shivakasula10@gmail.com](mailto:shivakasula10@gmail.com)
+
+---
+
+## 📜 License
+
+This project is open-source and free to use by anyone for personal or educational purposes.  
+Feel free to modify, distribute, and use the code as long as proper credit is given to the original author, **Kasula Shiva**.
+
+---
+
+## 📣 Acknowledgements
+
+Based on best practices and inspired by similar projects in the cybersecurity learning community. Thanks to open‑source libraries like **PyCryptodome**, **requests**, and **pyperclip** for enabling this functionality.
+
+sider logging modules or audit-tracing for cleaner event reporting.
