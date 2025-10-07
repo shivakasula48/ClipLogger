@@ -37,25 +37,20 @@ A powerful, feature-rich clipboard manager for Windows that automatically saves 
 ## 🛠️ Installation
 
 ### Option 1: Run from Source
-Clone the repository
-
-`git clone https://github.com/shivakasula48/ClipLogger.git
+Clone the repository`git clone https://github.com/shivakasula48/ClipLogger.git
 `
-cd ClipboardManager
-
-Install dependencies
-pip install -r requirements.txt
-
-Run the application
-
-`python clipboard.py
+`cd ClipboardManager
+`
+Install dependencies `pip install -r requirements.txt
+`
+Run the application `python clipboard.py
 `
 ### Option 2: Build Executable
 Install PyInstaller
 `pip install pyinstaller
 `
-Build standalone executable
 
+Build standalone executable
 `pyinstaller --onefile --windowed --name "ClipboardManager" clipboard.py
 `
 
